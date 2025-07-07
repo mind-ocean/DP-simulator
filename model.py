@@ -319,7 +319,7 @@ class model:
             else:
                 ti_ = ti
         
-            ax[i].plot(ti_,self.tau_control_arr.T[i],c='deeppink',linestyle='-',label='Set control from PID',alpha=0.7)
+            ax[i].plot(ti_,self.tau_control_arr.T[i],c='deeppink',linestyle='-',label='Set control from controller',alpha=0.7)
             
             ax[i].set_xlabel('Time [s]')
             ax[i].set_ylabel(ylabel[i])
