@@ -102,7 +102,7 @@ thrusters_models = {
     'maximum RPM': [1200,1200,1200,1200], 
     'RPS mean rate': [6,6,6,6],
     'rotation mean rate [deg/s]': [90,90,90,90],
-    'quadratic component': [8.63215905e-07, 8.63215905e-07, 2.20439983e-06, 2.1205369703e-06 ], 
+    'quadratic component': [6.7e-06, 6.7e-06, 2.20439983e-06, 2.1205369703e-06 ], 
     'linear component': [0,0,0,0]    
     }
 
@@ -261,4 +261,5 @@ def sim():
 
 
 if __name__ == "__main__":
+
     sim()
